@@ -57,8 +57,5 @@ var c = 10;
 var d = 25;
 //------a--------c------b------d---------
 
-var principioPrimerRangoNoEstaDentroDelSegundoRango = a < c || a > d;
-var finalSegundoRangoNoEstaEnPrimerRango = d < a || d > b;
-var finalPrimerRangoEsMenorPrincipioSegundoRango = b < c;
-var haySolape = !(principioPrimerRangoNoEstaDentroDelSegundoRango && finalSegundoRangoNoEstaEnPrimerRango && finalPrimerRangoEsMenorPrincipioSegundoRango);
+var haySolape = !(b < c || a > d);
 console.log(haySolape)
