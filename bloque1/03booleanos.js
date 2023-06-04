@@ -57,5 +57,5 @@ var c = 10;
 var d = 25;
 //------a--------c------b------d---------
 
-var haySolape = !(b < c || a > d);
+var haySolape = !(b <= c || a >= d);
 console.log(haySolape)
